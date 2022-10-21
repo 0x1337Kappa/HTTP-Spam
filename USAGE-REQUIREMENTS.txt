@@ -1,0 +1,8 @@
+node cfstr.js [TARGET] [DURATION] [THREADS] [GET] [PROXY] [RQS PER IP]
+node tlsv1.js [GET] [TARGET] [PROXY] [DURATION] [RQS PER IP] [THREADS]
+node CF-GLACIER.js [GET/POST] [TARGET] [PROXY] [DURATION] [RQS PER IP] [THREADS]
+node CF-FLOODER.js [GET/POST] [TARGET] [PROXY] [DURATION] [RQS PER IP] [THREADS]
+
+requirements
+
+npm i fs url http http2 tls crypto net cluster events zombie superagent axios request fake-useragent randomstring cloudscraper undetected_chromedriver
